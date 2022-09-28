@@ -1302,7 +1302,7 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="505050" />
+                <option name="BACKGROUND" value="303030" />
             </value>
         </option>
         <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
@@ -3298,7 +3298,7 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="505050" />
+                <option name="BACKGROUND" value="303030" />
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
