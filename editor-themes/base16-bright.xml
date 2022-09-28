@@ -13,12 +13,12 @@
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
         <option name="DOCUMENTATION_COLOR" value="000000" />
-        <option name="GUTTER_BACKGROUND" value="000000" />
+        <option name="GUTTER_BACKGROUND" value="303030" />
         <option name="INDENT_GUIDE" value="505050" />
         <option name="INFORMATION_HINT" value="000000" />
         <option name="LINE_NUMBERS_COLOR" value="b0b0b0" />
         <option name="METHOD_SEPARATORS_COLOR" value="b0b0b0" />
-        <option name="MODIFIED_LINES_COLOR" value="fda331" />
+        <option name="MODIFIED_LINES_COLOR" value="6fb3d2" />
         <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
         <option name="QUESTION_HINT" value="000000" />
         <option name="RIGHT_MARGIN_COLOR" value="b0b0b0" />
@@ -1302,8 +1302,7 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="e0e0e0" />
-                <option name="ERROR_STRIPE_COLOR" value="4d6168" />
+                <option name="BACKGROUND" value="505050" />
             </value>
         </option>
         <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
@@ -3299,8 +3298,7 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="e0e0e0" />
-                <option name="ERROR_STRIPE_COLOR" value="4d6168" />
+                <option name="BACKGROUND" value="505050" />
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
