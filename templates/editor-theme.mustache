@@ -2,23 +2,32 @@
         Author: {{scheme-author}}   -->
 
 <!--
-base00 # Default Background
-base01 # Lighter Background (Used for status bars)
-base02 # Selection Background
-base0203 # Window selection border
-base03 # Comments, Invisibles, Line Highlighting
-base04 # Dark Foreground (Used for status bars)
-base05 # Default Foreground, Caret, Delimiters, Operators
-base06 # Light Foreground (Not often used)
-base07 # Light Background (Not often used)
-base08 # RED     Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
-base09 # ORANGE  Integers, Boolean, Constants, XML Attributes, Markup Link Url
-base0A # YELLOW  Classes, Markup Bold, Search Text Background
-base0B # GREEN   Strings, Inherited Class, Markup Code, Diff Inserted
-base0C # CYAN    Support, Regular Expressions, Escape Characters, Markup Quotes
-base0D # BLUE    Functions, Methods, Attribute IDs, Headings
-base0E # MAGENTA Keywords, Storage, Selector, Markup Italic, Diff Changed
-base0F # BROWN   Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+# greys
+BASE00="#000000" # Default Background
+BASE01="#303030" # Lighter Background (Used for status bars)
+BASE02="#505050" # Selection Background
+BASE0203="#808080" # Window selection border
+BASE03="#b0b0b0" # Comments, Invisibles, Line Highlighting
+BASE04="#d0d0d0" # Dark Foreground (Used for status bars)
+BASE05="#e0e0e0" # Default Foreground, Caret, Delimiters, Operators
+BASE06="#f5f5f5" # Light Foreground (Not often used)
+BASE07="#ffffff" # Light Background (Not often used)
+# red
+BASE08="#fb0120" # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+# orange
+BASE09="#fc6d24" # Integers, Boolean, Constants, XML Attributes, Markup Link Url
+# yellow
+BASE0A="#fda331" # Classes, Markup Bold, Search Text Background
+# green
+BASE0B="#a1c659" # Strings, Inherited Class, Markup Code, Diff Inserted
+# cyan
+BASE0C="#76c7b7" # Support, Regular Expressions, Escape Characters, Markup Quotes
+# blue
+BASE0D="#6fb3d2" # Functions, Methods, Attribute IDs, Headings
+# magenta
+BASE0E="#d381c3" # Keywords, Storage, Selector, Markup Italic, Diff Changed
+# brown
+BASE0F="#be643c" # Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
 -->
 
 <scheme name="Base16 {{scheme-name}}" version="142" parent_scheme="Darcula">
@@ -71,7 +80,7 @@ base0F # BROWN   Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
         </option>
         <option name="ANNOTATION_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{base0E-hex}}"/>
+                <option name="FOREGROUND" value="{{base0C-hex}}"/>
             </value>
         </option>
         <option name="APACHE_CONFIG.ARG_LEXEM">
@@ -98,7 +107,7 @@ base0F # BROWN   Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
         </option>
         <option name="Annotation">
             <value>
-                <option name="FOREGROUND" value="{{base0E-hex}}"/>
+                <option name="FOREGROUND" value="{{base0C-hex}}"/>
             </value>
         </option>
         <option name="Anonymous class name">
@@ -708,7 +717,7 @@ base0F # BROWN   Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
         </option>
         <option name="DEFAULT_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="{{base08-hex}}" />
+                <option name="FOREGROUND" value="{{base0F-hex}}" />
             </value>
         </option>
         <option name="DEFAULT_METADATA">
@@ -741,6 +750,16 @@ base0F # BROWN   Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
                 <option name="FOREGROUND" value="{{base0D-hex}}" />
             </value>
         </option>
+		<option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+			<value>
+				<option name="EFFECT_TYPE" value="1" />
+			</value>
+		</option>
+		<option name="DEFAULT_REASSIGNED_PARAMETER">
+			<value>
+				<option name="EFFECT_TYPE" value="1" />
+			</value>
+		</option>
         <option name="DEFAULT_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="{{base05-hex}}" />

@@ -1,6 +1,35 @@
 <!--    Base16 Bright
         Author: Chris Kempson (http://chriskempson.com)   -->
 
+<!--
+# greys
+BASE00="#000000" # Default Background
+BASE01="#303030" # Lighter Background (Used for status bars)
+BASE02="#505050" # Selection Background
+BASE0203="#808080" # Window selection border
+BASE03="#b0b0b0" # Comments, Invisibles, Line Highlighting
+BASE04="#d0d0d0" # Dark Foreground (Used for status bars)
+BASE05="#e0e0e0" # Default Foreground, Caret, Delimiters, Operators
+BASE06="#f5f5f5" # Light Foreground (Not often used)
+BASE07="#ffffff" # Light Background (Not often used)
+# red
+BASE08="#fb0120" # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+# orange
+BASE09="#fc6d24" # Integers, Boolean, Constants, XML Attributes, Markup Link Url
+# yellow
+BASE0A="#fda331" # Classes, Markup Bold, Search Text Background
+# green
+BASE0B="#a1c659" # Strings, Inherited Class, Markup Code, Diff Inserted
+# cyan
+BASE0C="#76c7b7" # Support, Regular Expressions, Escape Characters, Markup Quotes
+# blue
+BASE0D="#6fb3d2" # Functions, Methods, Attribute IDs, Headings
+# magenta
+BASE0E="#d381c3" # Keywords, Storage, Selector, Markup Italic, Diff Changed
+# brown
+BASE0F="#be643c" # Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+-->
+
 <scheme name="Base16 Bright" version="142" parent_scheme="Darcula">
     <colors>
         <option name="ADDED_LINES_COLOR" value="a1c659" />
@@ -51,7 +80,7 @@
         </option>
         <option name="ANNOTATION_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="d381c3"/>
+                <option name="FOREGROUND" value="76c7b7"/>
             </value>
         </option>
         <option name="APACHE_CONFIG.ARG_LEXEM">
@@ -78,7 +107,7 @@
         </option>
         <option name="Annotation">
             <value>
-                <option name="FOREGROUND" value="d381c3"/>
+                <option name="FOREGROUND" value="76c7b7"/>
             </value>
         </option>
         <option name="Anonymous class name">
@@ -688,7 +717,7 @@
         </option>
         <option name="DEFAULT_LOCAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="fb0120" />
+                <option name="FOREGROUND" value="be643c" />
             </value>
         </option>
         <option name="DEFAULT_METADATA">
@@ -721,6 +750,16 @@
                 <option name="FOREGROUND" value="6fb3d2" />
             </value>
         </option>
+		<option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+			<value>
+				<option name="EFFECT_TYPE" value="1" />
+			</value>
+		</option>
+		<option name="DEFAULT_REASSIGNED_PARAMETER">
+			<value>
+				<option name="EFFECT_TYPE" value="1" />
+			</value>
+		</option>
         <option name="DEFAULT_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="e0e0e0" />
